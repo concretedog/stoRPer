@@ -1,4 +1,4 @@
-# stoRPer
+# 
 
 ![Alt text](images/hexbin_sticker.png?raw=true "Title")
 
