@@ -12,3 +12,16 @@ Check out the video with details about the design and the design thinking, at th
 
 [https://youtu.be/Y8ddx1Og3Xw?feature=shared](url)
 
+Basic Bill Of Materials, This is just a guide for a basic build as you could build up the PCB in any way you can imagine!
+
+The PCB (Available on Tindie [https://www.tindie.com/products/concreted0g/storper/](url) )
+4* N20 metal gear motors in a gear ratio of your choice rated up to 6V.
+4* 3D printed motor mount clips to attach the motors (files in the 3D models section or periodically available on the tindie listing as an options)
+8* 6mm M2 bolts and nuts to attach motor mounts.
+A raspberry pi Pico or Pico W, or equivalent footprint microcontroller board.
+Some N20 compatible wheels (either commercial or home brew/3D printed)
+Some kind of power supply (simplest is a small USB pack, other options are a 14500 or 18650 cell wired into the power input)
+Semi optional, an upper deck to attach power supply too. (Inkscape files for Lasercutting or CNC or heck, cutting out with a saw, are in the Deck Drawing folder, or available lasercut on the Tindie listing)
+
+But that's just a guide, you could use different items or design to the basic PCB/chassis in different ways.
+
