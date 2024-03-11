@@ -14,7 +14,7 @@ Check out the video with details about the design and the design thinking, at th
 
 Basic Bill Of Materials, This is just a guide for a basic build as you could build up the PCB in any way you can imagine!
 
-The PCB (Available on Tindie [https://www.tindie.com/products/concreted0g/storper/](url) )
+The PCB (Available on [Tindie](https://www.tindie.com/products/concreted0g/storper))
 4* N20 metal gear motors in a gear ratio of your choice rated up to 6V. <br />
 4* 3D printed motor mount clips to attach the motors (files in the 3D models section or periodically available on the tindie listing as an options)<br />
 8* 6mm M2 bolts and nuts to attach motor mounts.<br />
