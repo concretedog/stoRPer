@@ -8,9 +8,9 @@ stoRPer, a modular adaptable AWD Pico based robot rover
 
 ![Alt text](images/IMG_20231103_135725.jpg?raw=true "Title")
 
-Check out the video with details about the design and the design thinking, at the moment it's probably the best documentation! 
+[Check out the youtube video](https://youtu.be/Y8ddx1Og3Xw?feature=shared) with details about the design and the design thinking, at the moment it's probably the best documentation! 
 
-[](https://youtu.be/Y8ddx1Og3Xw?feature=shared) 
+
 
 Basic Bill Of Materials, This is just a guide for a basic build as you could build up the PCB in any way you can imagine!
 
