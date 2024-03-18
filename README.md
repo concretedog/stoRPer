@@ -23,5 +23,7 @@ Some N20 compatible wheels (either commercial or home brew/3D printed)<br />
 Some kind of power supply (simplest is a small USB pack, other options are a 14500 or 18650 cell wired into the power input)<br />
 Semi optional, an upper deck to attach power supply too. (Inkscape files for Lasercutting or CNC or heck, cutting out with a saw, are in the Deck Drawing folder, or available lasercut on the Tindie listing)<br />
 
-But that's just a guide, you could use different items or design to the basic PCB/chassis in different ways.
+But that's just a guide, you could use different items or design to the basic PCB/chassis in different ways. <br />
+
+All the KiCad files in the repo were originally made in version 7.xx. 
 
