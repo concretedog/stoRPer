@@ -32,7 +32,10 @@ All the KiCad files in the repo were originally made in version 7.xx.
 Added an Addons folder which currently contains 2 new PCB designs. <br />
 
 Bumper can receive an ultrasonic module (HC-SR04) and also have 2 bump switches connected. <br />
-The Kludge Deck conforms to the StoRPer main PCB layout with lots of prototyping space and extra holes for mounting stuff!
+The Kludge Deck conforms to the StoRPer main PCB layout with lots of prototyping space and extra holes for mounting stuff! <br />
+
+Bumpers can be added above or below the main PCB with lots of different mount options. Therefore you might need to buy a range of standoffs to accomodate and support your design. If however you have access to a 3D printer there is a FreeCAD file in the 3D models section called STANDOFFS which you can simply adjust the length of a standoff tube that will slot over an M3 bolt. You can make custom lengths to suit your build. 
+
 
 ![Alt text](images/bumper3d.png?raw=true "Title")
 
