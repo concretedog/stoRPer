@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/concretedog/Desktop/StoRPer_reelease_candidate/storper_release_candidate/storper_release_candidate.kicad_sch</source>
+    <date>Tue 10 Oct 2023 14:49:30 BST</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>storper_release_candidate.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/L9110_Motor_Driver_1/" tstamps="/011585cf-bcff-4928-aee1-4a117256130f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>L9910_Motor_Driver_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/L9110_Motor_Driver_2/" tstamps="/06a63da9-f523-406c-85e6-2ba3d2e8c67b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>L9910_Motor_Driver_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/L9110_Motor_Driver_3/" tstamps="/78f8f23d-d98c-4713-82d2-bb6b09a5f750/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>L9910_Motor_Driver_3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/L9110_Motor_Driver_4/" tstamps="/31dab1f8-a478-49a6-9bbc-106005e2ff00/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>L9910_Motor_Driver_4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>CDOG:Diode_Schottky_SMB(DO-214AA)</footprint>
+      <fields>
+        <field name="LCSC">C110480</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C110480"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="storper_release_candidate.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e23e888-6c72-4fdb-9bf7-5794efa2962a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x05_Counter_Clockwise</value>
+      <footprint>CDOG:StoRPer_small_breakout</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise" description="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="storper_release_candidate.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dec1177f-2a05-492e-8a21-f305a37a9e70</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="storper_release_candidate.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7f00195-4ed9-438c-bd65-6e4642dff0cc</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_02x10_Counter_Clockwise</value>
+      <footprint>CDOG:stoRPer_breakout</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Counter_Clockwise" description="Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="storper_release_candidate.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d8c7c55-0be5-4fe6-8d56-171239f5ac94</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>~</value>
+      <footprint>CDOG:RP_Pico</footprint>
+      <libsource lib="CDOG_Symbols" part="RPI_Pico" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="storper_release_candidate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a3e91ee-4e45-4189-83d1-5025f7a87b74</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_1"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/L9110_Motor_Driver_1/" tstamps="/011585cf-bcff-4928-aee1-4a117256130f/"/>
+      <tstamps>65be014d-c3cc-42f8-9473-357005c53551</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_1"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/L9110_Motor_Driver_1/" tstamps="/011585cf-bcff-4928-aee1-4a117256130f/"/>
+      <tstamps>c4762b83-736f-43c5-9a09-1567e911fd7d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_1"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_1/" tstamps="/011585cf-bcff-4928-aee1-4a117256130f/"/>
+      <tstamps>b9a5e387-4e48-457d-813d-4e7327953b05</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_1"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_1/" tstamps="/011585cf-bcff-4928-aee1-4a117256130f/"/>
+      <tstamps>d71118e6-4c72-421d-89b5-8dbf5e4adf12</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>L9110_Motor_Driver</value>
+      <footprint>CDOG:L9110S_SOP-8_L4.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <fields>
+        <field name="LCSC">C85174</field>
+      </fields>
+      <libsource lib="CDOG_Symbols" part="L9110" description=""/>
+      <property name="LCSC" value="C85174"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_1"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_1.kicad_sch"/>
+      <sheetpath names="/L9110_Motor_Driver_1/" tstamps="/011585cf-bcff-4928-aee1-4a117256130f/"/>
+      <tstamps>ee45cb65-efc6-4480-864c-c58e06f08009</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_2"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/L9110_Motor_Driver_2/" tstamps="/06a63da9-f523-406c-85e6-2ba3d2e8c67b/"/>
+      <tstamps>a7083aaf-d66f-4f6e-bb5f-3a4e754e105b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_2"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/L9110_Motor_Driver_2/" tstamps="/06a63da9-f523-406c-85e6-2ba3d2e8c67b/"/>
+      <tstamps>93d0284a-76a7-40f7-977d-3b4f939c2555</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_2"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_2/" tstamps="/06a63da9-f523-406c-85e6-2ba3d2e8c67b/"/>
+      <tstamps>b5c78a8f-43f5-4938-947e-c7fad0f71c35</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_2"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_2/" tstamps="/06a63da9-f523-406c-85e6-2ba3d2e8c67b/"/>
+      <tstamps>ce0d7cd3-08af-417e-a24e-96038fbd8e30</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>L9110_Motor_Driver</value>
+      <footprint>CDOG:L9110S_SOP-8_L4.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <fields>
+        <field name="LCSC">C85174</field>
+      </fields>
+      <libsource lib="CDOG_Symbols" part="L9110" description=""/>
+      <property name="LCSC" value="C85174"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_2"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_2.kicad_sch"/>
+      <sheetpath names="/L9110_Motor_Driver_2/" tstamps="/06a63da9-f523-406c-85e6-2ba3d2e8c67b/"/>
+      <tstamps>7e094ba0-037b-4df6-8131-d7b5b967df91</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_3"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/L9110_Motor_Driver_3/" tstamps="/78f8f23d-d98c-4713-82d2-bb6b09a5f750/"/>
+      <tstamps>5f8eb6d7-74a2-49cc-b17a-3486ab5d9b27</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_3"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/L9110_Motor_Driver_3/" tstamps="/78f8f23d-d98c-4713-82d2-bb6b09a5f750/"/>
+      <tstamps>c32e498c-19c5-41ca-9a20-920da89b7f61</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_3"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_3/" tstamps="/78f8f23d-d98c-4713-82d2-bb6b09a5f750/"/>
+      <tstamps>f5e26c34-27ed-4ad7-9c32-6d3086196ab9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_3"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_3/" tstamps="/78f8f23d-d98c-4713-82d2-bb6b09a5f750/"/>
+      <tstamps>dc32b1c6-6ccf-4dd8-a91c-e04afcd479bd</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>L9110_Motor_Driver</value>
+      <footprint>CDOG:L9110S_SOP-8_L4.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <fields>
+        <field name="LCSC">C85174</field>
+      </fields>
+      <libsource lib="CDOG_Symbols" part="L9110" description=""/>
+      <property name="LCSC" value="C85174"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_3"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_3.kicad_sch"/>
+      <sheetpath names="/L9110_Motor_Driver_3/" tstamps="/78f8f23d-d98c-4713-82d2-bb6b09a5f750/"/>
+      <tstamps>99f08c2c-e57c-42ec-8a37-fa8bf254087c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_4"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/L9110_Motor_Driver_4/" tstamps="/31dab1f8-a478-49a6-9bbc-106005e2ff00/"/>
+      <tstamps>05eba274-cdf9-4ffc-82b6-5012f755157c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_4"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_4.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/L9110_Motor_Driver_4/" tstamps="/31dab1f8-a478-49a6-9bbc-106005e2ff00/"/>
+      <tstamps>2ea1c8a0-0cc2-4df8-91d8-cba5201a51ab</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_4"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_4/" tstamps="/31dab1f8-a478-49a6-9bbc-106005e2ff00/"/>
+      <tstamps>83af43b7-be86-4ebd-b17f-bb29a4790331</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_4"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/L9110_Motor_Driver_4/" tstamps="/31dab1f8-a478-49a6-9bbc-106005e2ff00/"/>
+      <tstamps>f2d4cbf9-b291-48cf-bf87-638a2c6bda37</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>L9110_Motor_Driver</value>
+      <footprint>CDOG:L9110S_SOP-8_L4.9-W3.9-P1.27-LS6.0-BL</footprint>
+      <fields>
+        <field name="LCSC">C85174</field>
+      </fields>
+      <libsource lib="CDOG_Symbols" part="L9110" description=""/>
+      <property name="LCSC" value="C85174"/>
+      <property name="Sheetname" value="L9110_Motor_Driver_4"/>
+      <property name="Sheetfile" value="L9910_Motor_Driver_4.kicad_sch"/>
+      <sheetpath names="/L9110_Motor_Driver_4/" tstamps="/31dab1f8-a478-49a6-9bbc-106005e2ff00/"/>
+      <tstamps>cbf38130-eb55-4003-9deb-8e1d7411f7d2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CDOG_Symbols" part="L9110">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L9110_Motor_Driver</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OA" type="output"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="OB" type="output"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="IA" type="input"/>
+        <pin num="7" name="IB" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CDOG_Symbols" part="RPI_Pico">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="gp0" type="input"/>
+        <pin num="2" name="gp1" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="gp2" type="input"/>
+        <pin num="5" name="gp3" type="input"/>
+        <pin num="6" name="gp4" type="input"/>
+        <pin num="7" name="gp5" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="gp6" type="input"/>
+        <pin num="10" name="gp7" type="input"/>
+        <pin num="11" name="gp8" type="input"/>
+        <pin num="12" name="gp9" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="gp10" type="input"/>
+        <pin num="15" name="gp11" type="input"/>
+        <pin num="16" name="gp12" type="input"/>
+        <pin num="17" name="gp13" type="input"/>
+        <pin num="18" name="GND" type="input"/>
+        <pin num="19" name="gp14" type="input"/>
+        <pin num="20" name="gp15" type="input"/>
+        <pin num="21" name="gp16" type="input"/>
+        <pin num="22" name="gp17" type="input"/>
+        <pin num="23" name="GND" type="input"/>
+        <pin num="24" name="gp18" type="input"/>
+        <pin num="25" name="gp19" type="input"/>
+        <pin num="26" name="gp20" type="input"/>
+        <pin num="27" name="gp21" type="input"/>
+        <pin num="28" name="GND" type="input"/>
+        <pin num="29" name="gp22" type="input"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="gp26" type="input"/>
+        <pin num="32" name="gp27" type="input"/>
+        <pin num="33" name="GND" type="input"/>
+        <pin num="34" name="gp28" type="input"/>
+        <pin num="35" name="ADC_vref" type="input"/>
+        <pin num="36" name="3V3(out)" type="input"/>
+        <pin num="37" name="3V3_en" type="input"/>
+        <pin num="38" name="GND" type="input"/>
+        <pin num="39" name="VSYS" type="input"/>
+        <pin num="40" name="VBUS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise">
+      <description>Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Counter_Clockwise">
+      <description>Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CDOG_Symbols">
+      <uri>/home/concretedog/.local/share/kicad/7.0/symbols/CDOG_Symbols.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/3V3">
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U5" pin="36" pinfunction="3V3(out)" pintype="input"/>
+    </net>
+    <net code="3" name="/3V3_en">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U5" pin="37" pinfunction="3V3_en" pintype="input"/>
+    </net>
+    <net code="4" name="/A1">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IA" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="gp8" pintype="input"/>
+    </net>
+    <net code="5" name="/A2">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IA" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="gp10" pintype="input"/>
+    </net>
+    <net code="6" name="/A3">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="IA" pintype="input"/>
+      <node ref="U5" pin="16" pinfunction="gp12" pintype="input"/>
+    </net>
+    <net code="7" name="/A4">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="IA" pintype="input"/>
+      <node ref="U5" pin="19" pinfunction="gp14" pintype="input"/>
+    </net>
+    <net code="8" name="/ADC_Vref">
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U5" pin="35" pinfunction="ADC_vref" pintype="input"/>
+    </net>
+    <net code="9" name="/B1">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IB" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="gp9" pintype="input"/>
+    </net>
+    <net code="10" name="/B2">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="IB" pintype="input"/>
+      <node ref="U5" pin="15" pinfunction="gp11" pintype="input"/>
+    </net>
+    <net code="11" name="/B3">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="IB" pintype="input"/>
+      <node ref="U5" pin="17" pinfunction="gp13" pintype="input"/>
+    </net>
+    <net code="12" name="/B4">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="IB" pintype="input"/>
+      <node ref="U5" pin="20" pinfunction="gp15" pintype="input"/>
+    </net>
+    <net code="13" name="/gp0">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="gp0" pintype="input"/>
+    </net>
+    <net code="14" name="/gp1">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="gp1" pintype="input"/>
+    </net>
+    <net code="15" name="/gp2">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="gp2" pintype="input"/>
+    </net>
+    <net code="16" name="/gp3">
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="gp3" pintype="input"/>
+    </net>
+    <net code="17" name="/gp4">
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="gp4" pintype="input"/>
+    </net>
+    <net code="18" name="/gp5">
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="gp5" pintype="input"/>
+    </net>
+    <net code="19" name="/gp6">
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="gp6" pintype="input"/>
+    </net>
+    <net code="20" name="/gp7">
+      <node ref="J12" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="gp7" pintype="input"/>
+    </net>
+    <net code="21" name="/gp16">
+      <node ref="J12" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="gp16" pintype="input"/>
+    </net>
+    <net code="22" name="/gp17">
+      <node ref="J12" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="gp17" pintype="input"/>
+    </net>
+    <net code="23" name="/gp18">
+      <node ref="J12" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="gp18" pintype="input"/>
+    </net>
+    <net code="24" name="/gp19">
+      <node ref="J12" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="gp19" pintype="input"/>
+    </net>
+    <net code="25" name="/gp20">
+      <node ref="J12" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="gp20" pintype="input"/>
+    </net>
+    <net code="26" name="/gp21">
+      <node ref="J12" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U5" pin="27" pinfunction="gp21" pintype="input"/>
+    </net>
+    <net code="27" name="/gp22">
+      <node ref="J12" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="gp22" pintype="input"/>
+    </net>
+    <net code="28" name="/gp26">
+      <node ref="J12" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="gp26" pintype="input"/>
+    </net>
+    <net code="29" name="/gp27">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="32" pinfunction="gp27" pintype="input"/>
+    </net>
+    <net code="30" name="/gp28">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="34" pinfunction="gp28" pintype="input"/>
+    </net>
+    <net code="31" name="/reset">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="18" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="23" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="28" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="33" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="38" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(J1-Pin_1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OA" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(J1-Pin_2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="OB" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(J2-Pin_1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OA" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(J2-Pin_2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="OB" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(J3-Pin_1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OA" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(J3-Pin_2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="OB" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(J4-Pin_1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="OA" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(J4-Pin_2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="OB" pintype="output"/>
+    </net>
+    <net code="41" name="VBUS">
+      <node ref="U5" pin="40" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="42" name="VSS">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J12" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="39" pinfunction="VSYS" pintype="input"/>
+    </net>
+  </nets>
+</export>
