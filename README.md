@@ -27,3 +27,14 @@ But that's just a guide, you could use different items or design to the basic PC
 
 All the KiCad files in the repo were originally made in version 7.xx. 
 
+**Update 28-05-2024**
+
+Added an Addons folder which currently contains 2 new PCB designs. <br />
+
+Bumper can receive an ultrasonic module (HC-SR04) and also have 2 bump switches connected. <br />
+The Kludge Deck conforms to the StoRPer main PCB layout with lots of prototyping space and extra holes for mounting stuff!
+
+![Alt text](images/bumper3d.png?raw=true "Title")
+
+![Alt text](images/kludge_deck.jpg?raw=true "Title")
+
