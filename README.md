@@ -41,3 +41,12 @@ Bumpers can be added above or below the main PCB with lots of different mount op
 
 ![Alt text](images/kludge_deck.jpg?raw=true "Title")
 
+
+**Tiny Update 29-06-25**
+
+Added a small hex adaptor part to the 3D models section. I ran a workshop recently and wanted to use more affordable mecanum wheels and found some cheap 48mm mecanum wheels available on places like aliexpress etc. However they have a hexagonal axle mount. After numerous iterations and dialling in the 3D printing I made a super simple slip on adaptor part that sits inside the wheel and slots on snugly to the N20 motor mount. Useful for stoRPer of course, but useful for any N20 motor project. 
+
+![Alt text](images/IMG_20250331_123952.jpg?raw=true "Title")
+
+
+
